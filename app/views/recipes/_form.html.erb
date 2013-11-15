@@ -1,0 +1,6 @@
+<%= form_tag '/search', method: :post do %>
+	<div class="input-group input-group-lg">
+  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+	<%= text_field_tag :ingredient, 'Search recipes', class: 'form-control recipes-form'  %>
+<% end %>
+</div>
